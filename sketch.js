@@ -85,7 +85,7 @@ function draw() {
     gameOver.visible = false;
     restart.visible = false;
     
-    ground.velocityX = -(4 + 3*score/100);
+// write a code to increase the ground speed as the score increases.
     //scoring
     score = score + Math.round(getFrameRate()/60);
     
